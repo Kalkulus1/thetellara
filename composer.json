@@ -1,0 +1,19 @@
+{
+    "name": "kalkulus/thetellara",
+    "description": "A laravel package for theteller payment gateway",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mumuni Mohammed",
+            "email": "mumunim10@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Kalkulus\\Thetellara\\": "src/"
+        }
+    },
+    "require": {}
+}
