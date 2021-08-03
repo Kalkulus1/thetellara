@@ -8,9 +8,6 @@
 
 >A laravel package for theteller payment gateway
 
-## Inspiration
-I got inspiration from [Unideveloper](https://github.com/unicodeveloper/laravel-paystack)
-
 ## Installation
 
 [PHP](https://php.net) 5.4+ and [Composer](https://getcomposer.org) are required.
@@ -255,8 +252,16 @@ Why not star the github repo? I'd love the attention! Why not share the link for
 Don't forget to [follow me on twitter](https://twitter.com/kalkulus_1)!
 
 Thanks!
+
 Mumuni Mohammed.
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
+
+
+## Inspiration
+I got inspiration from [Unideveloper](https://github.com/unicodeveloper/laravel-paystack)
+
+Thanks to Prosper Otemuyiwa!
+
