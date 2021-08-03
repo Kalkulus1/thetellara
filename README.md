@@ -185,8 +185,8 @@ class PaymentController extends Controller
         $amount = request()->input('amount');; //Amount with is in pesewas. So 200 is actually GHS 2.00
         $desc = request()->input('desc');
         try{
-            $thetellar = new Thetellara();
-            $response =  $thetellar->initialize($transactionId, $email, $amount, $desc);
+            $theteller = new Thetellara();
+            $response =  $theteller->initialize($transactionId, $email, $amount, $desc);
             return redirect($response->checkout_url);
 
         }catch(\Exception $e) {
@@ -200,8 +200,8 @@ class PaymentController extends Controller
      */
     public function success()
     {
-        $thetellar = new Thetellara();
-        $response = $thetellar->getPaymentDetails();
+        $theteller = new Thetellara();
+        $response = $theteller->getPaymentDetails();
         dd($response);
 
         // Now you have the payment details,
