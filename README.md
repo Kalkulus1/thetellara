@@ -195,7 +195,7 @@ class PaymentController extends Controller
      * Get Theteller payment information
      * @return void
      */
-    public function success()
+    public function handleGatewayCallback()
     {
         $theteller = new Thetellara();
         $response = $theteller->getPaymentDetails();
