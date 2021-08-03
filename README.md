@@ -1,5 +1,12 @@
 # thetellara
-A laravel package for theteller payment gateway
+
+[![Latest Stable Version](https://poser.pugx.org/kalkulus/thetellara/v/stable.svg)](https://packagist.org/packages/kalkulus/thetellara)
+[![License](https://poser.pugx.org/kalkulus/thetellara/license.svg)](LICENSE.md)
+[![Build Status](https://travis-ci.com/Kalkulus1/thetellara.svg?branch=main)](https://travis-ci.com/github/Kalkulus1/thetellara)
+[![Quality Score](https://img.shields.io/scrutinizer/g/kalkulus1/thetellara.svg?style=flat-square)](https://scrutinizer-ci.com/g/Kalkulus1/thetellara/)
+[![Total Downloads](https://img.shields.io/packagist/dt/kalkulus/thetellara.svg?style=flat-square)](https://packagist.org/packages/kalkulus/thetellara)
+
+>A laravel package for theteller payment gateway
 
 ## Inspiration
 I got inspiration from [Unideveloper](https://github.com/unicodeveloper/laravel-paystack)
